@@ -1,0 +1,128 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #4caf50, #2e7d32);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2, #6dd5ed);
+}
+
+/* Chat Section */
+.chat-section {
+  flex: 2;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat Box */
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* Messages */
+.user-msg {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px 15px 0 15px;
+  align-self: flex-end;
+  max-width: 70%;
+}
+
+.bot-msg {
+  background: #e0e0e0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px 15px 15px 0;
+  align-self: flex-start;
+  max-width: 70%;
+}
+
+/* Input */
+.input-box {
+  display: flex;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.input-box button {
+  margin-left: 5px;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background: #43a047;
+}
+
+/* Form Section */
+.form-section {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section input {
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-section button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background: #1976d2;
+}
